@@ -1,0 +1,16 @@
+{
+    "name": "enflow/error-templates",
+    "description": "Error templates used for Enflow projects and servers",
+    "type": "library",
+    "license": "Proprietary",
+    "authors": [
+        {
+            "name": "Michel Bardelmeijer",
+            "email": "m.bardelmeijer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "twig/twig": "^3.0"
+    }
+}
