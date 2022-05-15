@@ -2,7 +2,7 @@
     "name": "enflow/error-templates",
     "description": "Error templates used for Enflow projects and servers",
     "type": "library",
-    "license": "Proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Michel Bardelmeijer",
