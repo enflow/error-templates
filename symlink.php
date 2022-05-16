@@ -3,5 +3,7 @@
 $codes = require 'codes.php';
 
 foreach ($codes as $code) {
-    exec('ln -s ' . __DIR__ . '/dist/' . $code . '.html ../custom_' . $code . '.html');
+    exec('chown www-data: ' . escapeshellarg(__DIR__ . '/dist/' . $code . '.html'));
+
+    exec('ln -s ' . escapeshellarg(__DIR__ . '/dist/' . $code . '.html') . ' ' . escapeshellarg('../custom_' . $code . '.html'));
 }
