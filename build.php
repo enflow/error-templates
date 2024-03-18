@@ -13,5 +13,5 @@ $twig = new TwigEnvironment($loader);
 foreach ($codes as $code) {
     $rendered = $twig->render('codes/' . $code . '.twig', ['code' => $code]);
 
-    file_put_contents(__DIR__ . '/dist/' . $code . '.html', $rendered);
+    file_put_contents(__DIR__ . '/dist/errors/' . $code . '.html', $rendered);
 }
